@@ -1,0 +1,64 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    padding: 16px 0;
+    margin: auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left {
+    display: flex;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation-item {
+    padding: 8px;
+    font-size: 1em;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    width: 250px;
+    height: 24px;
+    border: 1px solid #000;
+    margin-right: 16px;
+}
+
+.auth {
+    display: flex;
+}
+
+.auth > div {
+    padding: 8px;
+}
+
+.top-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.signup {
+    display: flex;
+}
