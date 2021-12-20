@@ -1,4 +1,9 @@
 
+a, a:hover, a:active {
+    color: #000;
+    text-decoration: none;
+    outline: none;
+}
 
 .container {
     display: flex;
@@ -12,7 +17,8 @@
 .header-container {
     display: flex;
     justify-content: space-between;
-    
+    background-color:dimgray;
+    padding: 16px;
 }
 
 .left {
@@ -31,6 +37,7 @@
 .navigation-item {
     padding: 8px;
     font-size: 1em;
+    color: #fff;
 }
 
 .right {
@@ -41,8 +48,13 @@
 .search-bar {
     width: 250px;
     height: 24px;
-    border: 1px solid #000;
     margin-right: 16px;
+    line-height: 1.5;
+    padding: 4px;
+}
+.search-bar {
+    outline: none;
+    
 }
 
 .auth {
@@ -55,10 +67,32 @@
 
 .top-content {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
+    width: 40%;
+    height: 40vh;
+    margin-left: 5%;
+}
+
+.title {
+    margin: 8px 0;
+    font-size: 40px;
+}
+
+.p-content {
+    font-size: 24px;
+    line-height: 1.5;
 }
 
 .signup {
     display: flex;
+    margin-top: 24px;
+}
+
+.button {
+    padding: 8px;
+}
+.button:hover {
+    cursor: pointer;
 }
